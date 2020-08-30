@@ -1,3 +1,4 @@
+print("Program Range by mastah MULIA\n")
 def Range(start=0, end=0, step=1) :
     if start > end :
         start, end = end, start
@@ -7,7 +8,6 @@ def Range(start=0, end=0, step=1) :
 
 for x in Range(10) :
     print(x)
-
 
 
 
