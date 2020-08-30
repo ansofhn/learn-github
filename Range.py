@@ -5,8 +5,8 @@ def Range(start=0, end=0, step=1) :
         yield start
         start += step
 
-for i in Range(10) :
-    print(i)
+for x in Range(10) :
+    print(x)
 
 
 
